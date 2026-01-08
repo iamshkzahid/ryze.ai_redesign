@@ -2,14 +2,12 @@
 
 This project is a complete redesign of the Ryze.ai website created as part of an internship assignment. The primary aim of the redesign was to enhance visual clarity, improve user experience, and strengthen overall communication, all while maintaining a modern, clean, and professional look.
 
---------------------------------------------------------------------
 
 ## Objective
 
 The main goal was to ensure visitors can immediately understand what Ryze.ai does, who it’s built for, and the value it provides. The redesigned website emphasizes clear messaging, intuitive navigation, and strong calls to action such as Get Started and Request a Demo to guide users effectively.
 
 
- ------------------------------------------------------------------
 
 ## Pages Covered
 
@@ -51,6 +49,9 @@ Content follows a clear top-down hierarchy to guide users naturally through each
 
 The design is fully responsive and adapts seamlessly across desktop and mobile devices.
 
+
+
+
 ## Modular Structure
 
 The website is built using reusable sections, including:
@@ -77,9 +78,12 @@ Font sizes and spacing are optimized for comfort on all screen sizes.
 
 The layout scales smoothly for smaller devices without hiding essential content.
 
+
+
 ## Final Notes
 
 This redesign emphasizes clarity, usability, and practical SaaS design principles rather than visual gimmicks. Every design decision was made to improve understanding, streamline navigation, and encourage conversions.
 
 Live Demo: (add your deployed link here)
+
 Repository: (add your GitHub link here)

@@ -84,6 +84,6 @@ The layout scales smoothly for smaller devices without hiding essential content.
 
 This redesign emphasizes clarity, usability, and practical SaaS design principles rather than visual gimmicks. Every design decision was made to improve understanding, streamline navigation, and encourage conversions.
 
-Live Demo: (add your deployed link here)
+Live Demo: https://github.com/iamshkzahid/ryze.ai_redesign
 
 Repository: (add your GitHub link here)

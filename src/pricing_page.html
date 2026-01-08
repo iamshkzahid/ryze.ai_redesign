@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ryze.ai - Pricing that Scales</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            RyzBlue: '#2D64DD',
+            RyzAqua: '#3BDBD2',
+            RyzCharcoal: '#212121',
+            RyzGrey: '#6C757D',
+            RyzWhite: '#FFFFFF',
+            RyzLightGrey: '#F8F9FA',
+          },
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<style data-purpose="background-patterns">.hero-pattern {
+      background-color: #F8F9FA;
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(45, 100, 221, 0.1) 0px, transparent 50%),
+        radial-gradient(at 100% 0%, rgba(59, 219, 210, 0.1) 0px, transparent 50%);
+    }
+  </style>
+<style data-purpose="utilities">.smooth-transition {
+      transition: all 0.3s ease-in-out;
+    }.scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+  </style>
+</head>
+<body class="font-sans text-RyzGrey antialiased bg-RyzWhite">
+<nav class="fixed w-full z-50 bg-RyzWhite/90 backdrop-blur-md border-b border-RyzLightGrey">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-20">
+<div class="flex-shrink-0 flex items-center gap-2 cursor-pointer">
+<div class="w-8 h-8 rounded bg-RyzBlue flex items-center justify-center text-white font-bold text-lg">
+            R
+          </div>
+<span class="font-bold text-xl text-RyzCharcoal tracking-tight">Ryze.ai</span>
+</div>
+<div class="hidden md:flex space-x-8">
+<a class="text-RyzGrey hover:text-RyzBlue font-medium smooth-transition" href="index.html">Home</a>
+<a class="text-RyzGrey hover:text-RyzBlue font-medium smooth-transition" href="features_page.html">Features</a>
+<a class="text-RyzCharcoal font-semibold" href="pricing_page.html">Pricing</a>
+<a class="text-RyzGrey hover:text-RyzBlue font-medium smooth-transition" href="usecase_page.html">Use Cases</a>
+</div>
+<div class="hidden md:flex items-center space-x-4">
+<a class="text-RyzGrey hover:text-RyzCharcoal font-medium smooth-transition" href="#">Login</a>
+<a class="px-5 py-2.5 rounded-full bg-RyzBlue text-RyzWhite font-semibold shadow-md hover:bg-opacity-90 hover:shadow-lg smooth-transition" href="pricing_page.html">
+            Get Started
+          </a>
+</div>
+<div class="md:hidden flex items-center">
+<button class="text-RyzGrey hover:text-RyzCharcoal focus:outline-none">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<section class="relative pt-32 pb-20 lg:pt-40 lg:pb-28 hero-pattern">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<div class="max-w-3xl mx-auto" data-purpose="hero-content">
+<span class="inline-block px-4 py-1.5 rounded-full bg-RyzBlue/10 text-RyzBlue text-sm font-semibold mb-6 tracking-wide uppercase">
+          Pricing Plans
+        </span>
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-RyzCharcoal mb-6 leading-tight">
+          Pricing that Scales with <span class="text-RyzBlue">Your Growth</span>
+</h1>
+<p class="text-lg md:text-xl text-RyzGrey mb-10 leading-relaxed">
+          Our transparent, ROI-focused pricing structure is designed to maximize your advertising potential. No hidden fees, just performance.
+        </p>
+<div class="flex flex-col sm:flex-row justify-center gap-4">
+<a class="px-8 py-3.5 rounded-full bg-RyzBlue text-RyzWhite font-bold text-lg shadow-lg hover:shadow-xl hover:scale-105 smooth-transition" href="#">
+            Get Started
+          </a>
+<a class="px-8 py-3.5 rounded-full bg-RyzWhite text-RyzGrey font-semibold text-lg border border-slate-200 shadow-sm hover:bg-RyzLightGrey smooth-transition" href="#">
+            View Features
+          </a>
+</div>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-RyzWhite to-transparent"></div>
+</section>
+<section class="py-20 bg-RyzWhite" id="pricing">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10 items-start">
+<div class="relative p-8 bg-RyzLightGrey border border-slate-200 rounded-2xl shadow-sm hover:shadow-md smooth-transition flex flex-col h-full" data-purpose="pricing-card-growth">
+<h3 class="text-xl font-bold text-RyzCharcoal mb-2">Growth</h3>
+<p class="text-RyzGrey text-sm mb-6">Small Businesses &amp; Startups</p>
+<div class="mb-6">
+<span class="text-4xl font-bold text-RyzCharcoal">$299</span>
+<span class="text-RyzGrey">/month</span>
+</div>
+<a class="w-full block text-center py-2.5 px-4 rounded-lg bg-RyzBlue text-RyzWhite font-semibold shadow-md hover:bg-opacity-90 hover:shadow-lg smooth-transition mb-8" href="#">
+            Get Started
+          </a>
+<ul class="space-y-4 mb-6 flex-1">
+<li class="flex items-start">
+<svg class="h-5 w-5 text-RyzAqua mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span class="text-RyzGrey text-sm">Up to 5 Ad Accounts</span>
+</li>
+<li class="flex items-start">
+<svg class="h-5 w-5 text-RyzAqua mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span class="text-RyzGrey text-sm">Basic AI Optimization</span>
+</li>
+<li class="flex items-start">
+<svg class="h-5 w-5 text-RyzAqua mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span class="text-RyzGrey text-sm">Weekly Reporting</span>
+</li>
+</ul>
+</div>
+<div class="relative p-8 bg-RyzWhite border-2 border-RyzBlue rounded-2xl shadow-2xl transform md:-translate-y-4 flex flex-col h-full z-10" data-purpose="pricing-card-professional">
+<div class="absolute top-0 right-0 bg-RyzBlue text-RyzWhite text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-lg">POPULAR</div>
+<h3 class="text-xl font-bold text-RyzCharcoal mb-2">Professional</h3>
+<p class="text-RyzGrey text-sm mb-6">Growing Teams &amp; Agencies</p>
+<div class="mb-6">
+<span class="text-4xl font-bold text-RyzCharcoal">$799</span>
+<span class="text-RyzGrey">/month</span>
+</div>
+<a class="w-full block text-center py-2.5 px-4 rounded-lg bg-RyzBlue text-RyzWhite font-semibold shadow-md hover:bg-opacity-90 hover:shadow-lg smooth-transition mb-8" href="#">
+            Get Started
+          </a>
+<ul class="space-y-4 mb-6 flex-1">
+<li class="flex items-start">
+<svg class="h-5 w-5 text-RyzAqua mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span class="text-RyzGrey text-sm">Up to 20 Ad Accounts</span>
+</li>
+<li class="flex items-start">
+<svg class="h-5 w-5 text-RyzAqua mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span class="text-RyzGrey text-sm">Advanced AI &amp; Predictive Models</span>
+</li>
+<li class="flex items-start">
+<svg class="h-5 w-5 text-RyzAqua mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span class="text-RyzGrey text-sm">Real-time Analytics Dashboard</span>
+</li>
+<li class="flex items-start">
+<svg class="h-5 w-5 text-RyzAqua mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span class="text-RyzGrey text-sm">Priority Support</span>
+</li>
+</ul>
+</div>
+<div class="relative p-8 bg-RyzLightGrey border border-slate-200 rounded-2xl shadow-sm hover:shadow-md smooth-transition flex flex-col h-full" data-purpose="pricing-card-enterprise">
+<h3 class="text-xl font-bold text-RyzCharcoal mb-2">Enterprise</h3>
+<p class="text-RyzGrey text-sm mb-6">Large Orgs &amp; High Volume</p>
+<div class="mb-6 flex items-baseline">
+<span class="text-4xl font-bold text-RyzCharcoal">Custom</span>
+</div>
+<a class="w-full block text-center py-2.5 px-4 rounded-lg border border-RyzBlue text-RyzBlue font-semibold hover:bg-RyzBlue hover:text-RyzWhite smooth-transition mb-8" href="#">
+            Contact Sales
+          </a>
+<ul class="space-y-4 mb-6 flex-1">
+<li class="flex items-start">
+<svg class="h-5 w-5 text-RyzAqua mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span class="text-RyzGrey text-sm">Unlimited Ad Accounts</span>
+</li>
+<li class="flex items-start">
+<svg class="h-5 w-5 text-RyzAqua mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span class="text-RyzGrey text-sm">Custom AI Model Training</span>
+</li>
+<li class="flex items-start">
+<svg class="h-5 w-5 text-RyzAqua mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span class="text-RyzGrey text-sm">Dedicated Account Manager</span>
+</li>
+<li class="flex items-start">
+<svg class="h-5 w-5 text-RyzAqua mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span class="text-RyzGrey text-sm">SSO &amp; Advanced Security</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-RyzLightGrey">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-RyzCharcoal">Compare Features</h2>
+<p class="mt-4 text-RyzGrey">A detailed look at what you get with each plan.</p>
+</div>
+<div class="overflow-x-auto rounded-xl border border-slate-200 shadow-sm bg-RyzWhite">
+<table class="min-w-full divide-y divide-slate-200">
+<thead class="bg-RyzLightGrey">
+<tr>
+<th class="px-6 py-4 text-left text-sm font-bold text-RyzCharcoal w-1/4" scope="col">Feature</th>
+<th class="px-6 py-4 text-center text-sm font-bold text-RyzCharcoal w-1/4" scope="col">Growth</th>
+<th class="px-6 py-4 text-center text-sm font-bold text-RyzBlue w-1/4" scope="col">Professional</th>
+<th class="px-6 py-4 text-center text-sm font-bold text-RyzCharcoal w-1/4" scope="col">Enterprise</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-slate-200 bg-RyzWhite">
+<tr>
+<td class="px-6 py-4 text-sm font-medium text-RyzCharcoal">Ad Platforms</td>
+<td class="px-6 py-4 text-sm text-RyzGrey text-center">Meta &amp; Google</td>
+<td class="px-6 py-4 text-sm text-RyzGrey text-center">Meta, Google, LinkedIn, TikTok</td>
+<td class="px-6 py-4 text-sm text-RyzGrey text-center">All + Custom APIs</td>
+</tr>
+<tr>
+<td class="px-6 py-4 text-sm font-medium text-RyzCharcoal">AI Capabilities</td>
+<td class="px-6 py-4 text-sm text-RyzGrey text-center">Basic Optimization</td>
+<td class="px-6 py-4 text-sm text-RyzGrey text-center">Predictive &amp; Creative Analysis</td>
+<td class="px-6 py-4 text-sm text-RyzGrey text-center">Full Custom Models</td>
+</tr>
+<tr>
+<td class="px-6 py-4 text-sm font-medium text-RyzCharcoal">Reporting</td>
+<td class="px-6 py-4 text-sm text-RyzGrey text-center">Weekly PDF</td>
+<td class="px-6 py-4 text-sm text-RyzGrey text-center">Real-time Dashboard</td>
+<td class="px-6 py-4 text-sm text-RyzGrey text-center">Custom BI Integration</td>
+</tr>
+<tr>
+<td class="px-6 py-4 text-sm font-medium text-RyzCharcoal">Support</td>
+<td class="px-6 py-4 text-sm text-RyzGrey text-center">Email Support</td>
+<td class="px-6 py-4 text-sm text-RyzGrey text-center">Priority Chat &amp; Email</td>
+<td class="px-6 py-4 text-sm text-RyzGrey text-center">24/7 Dedicated Agent</td>
+</tr>
+<tr>
+<td class="px-6 py-4 text-sm font-medium text-RyzCharcoal">Integrations</td>
+<td class="px-6 py-4 text-center text-RyzGrey">
+<span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-RyzLightGrey text-RyzGrey">3</span>
+</td>
+<td class="px-6 py-4 text-center text-RyzBlue">
+<svg class="w-6 h-6 mx-auto text-RyzAqua" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</td>
+<td class="px-6 py-4 text-center text-RyzBlue">
+<svg class="w-6 h-6 mx-auto text-RyzAqua" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section class="py-20 bg-RyzWhite border-t border-slate-100">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-3xl font-bold text-RyzCharcoal">Trusted by Market Leaders</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="p-8 rounded-2xl border border-slate-100 relative bg-RyzLightGrey">
+<svg aria-hidden="true" class="absolute top-8 left-8 h-8 w-8 text-RyzBlue/20 transform -translate-x-2 -translate-y-2" fill="currentColor" viewBox="0 0 32 32"><path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path></svg>
+<p class="relative text-lg text-RyzGrey italic mb-6 z-10 pt-4">"Ryze.ai transformed our ad strategy and boosted our ROI by 250% within three months."</p>
+<div class="flex items-center">
+<img alt="Alex Johnson" class="w-12 h-12 rounded-full mr-4 object-cover border-2 border-white shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXPBx-i0iBDopc1ZtueDowawy_q_Ec8u4QlkQSJr3ULEjpdGi7s23JS78KiCNoSpYUAp4AHIEaBrjl9F5UefD9GNZiE0IKUW6vXgZUWtypPOUQAGCM2YEG67pr5x4HLFx5rMv-k8PSU9B9LSfEFwAcI8J0YR9i1HgA6HujHDhoFqxTTj-gdtmWyIIvQiuV8IJyvbZHn6O0L_u_YXQHiGUAaoDuPWRZbrHBTKYJNGBByQSuby1AgxkJe222PikBhWWXEaxbM-HlqME"/>
+<div>
+<h4 class="font-bold text-RyzCharcoal">Alex Johnson</h4>
+<p class="text-sm text-RyzGrey">CMO, TechFlow</p>
+</div>
+</div>
+</div>
+<div class="p-8 rounded-2xl border border-slate-100 relative bg-RyzLightGrey">
+<svg aria-hidden="true" class="absolute top-8 left-8 h-8 w-8 text-RyzBlue/20 transform -translate-x-2 -translate-y-2" fill="currentColor" viewBox="0 0 32 32"><path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"></path></svg>
+<p class="relative text-lg text-RyzGrey italic mb-6 z-10 pt-4">"The AI optimization is incredible. We're spending less and getting better results. Highly recommend!"</p>
+<div class="flex items-center">
+<img alt="Maria Rodriguez" class="w-12 h-12 rounded-full mr-4 object-cover border-2 border-white shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9v_Aj6GLwW--CaeaUSOMN-o9whTk3yYv-XoEWV4Fao1_loy6EC0m_eZj0bIIIZMwcxV3E7l6VAfCKqnYExLFH_AsVeUbWAP2QxgiFI8MRBZhmEO-Bn3VsgbwYsZAnlkFwrddFdyklfAOCbyFLJwYZQO_Xl85W3Pe-jJRitreUE5pM1kNm4-QHcZ8Fngjd9QdQddh8ZLOs5TmoFXSzbK90emz48jXeQgJdIR91UrPBUOw4XjOpiw5eFEK2o9xB7yl2-iVBavvcP8E"/>
+<div>
+<h4 class="font-bold text-RyzCharcoal">Maria Rodriguez</h4>
+<p class="text-sm text-RyzGrey">Director of Marketing, GrowthCo</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-RyzWhite">
+<div class="max-w-5xl mx-auto px-8 py-16 text-center bg-RyzLightGrey rounded-3xl">
+<h2 class="text-3xl md:text-4xl font-bold mb-4 text-RyzCharcoal">Need a Custom Solution? Let's Talk.</h2>
+<p class="text-RyzGrey text-lg mb-8 max-w-2xl mx-auto">
+        If you have enterprise-specific needs, high volume requirements, or complex integration challenges, our team is ready to build a plan just for you.
+      </p>
+<a class="inline-block px-8 py-3.5 rounded-full bg-RyzBlue text-RyzWhite font-bold text-lg shadow-lg hover:shadow-xl hover:scale-105 smooth-transition" href="#">
+        Contact Sales
+      </a>
+</div>
+</section>
+<section class="py-20 bg-RyzWhite">
+<div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+<h2 class="text-3xl font-bold text-RyzCharcoal text-center mb-12">Frequently Asked Questions</h2>
+<div class="space-y-4">
+<details class="group p-6 border border-slate-200 rounded-xl bg-RyzLightGrey open:bg-RyzWhite open:shadow-md open:border-RyzAqua smooth-transition cursor-pointer">
+<summary class="flex justify-between items-center font-medium text-RyzCharcoal list-none">
+<span>What payment methods do you accept?</span>
+<span class="transition group-open:rotate-180">
+<svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+</span>
+</summary>
+<p class="text-RyzGrey mt-3 text-sm leading-relaxed">
+            We accept all major credit cards including Visa, Mastercard, and American Express. For Enterprise plans, we also offer invoicing options.
+          </p>
+</details>
+<details class="group p-6 border border-slate-200 rounded-xl bg-RyzLightGrey open:bg-RyzWhite open:shadow-md open:border-RyzAqua smooth-transition cursor-pointer">
+<summary class="flex justify-between items-center font-medium text-RyzCharcoal list-none">
+<span>Can I change my plan anytime?</span>
+<span class="transition group-open:rotate-180">
+<svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+</span>
+</summary>
+<p class="text-RyzGrey mt-3 text-sm leading-relaxed">
+            Yes! You can upgrade or downgrade your plan at any time from your dashboard settings. Prorated charges will apply immediately for upgrades.
+          </p>
+</details>
+<details class="group p-6 border border-slate-200 rounded-xl bg-RyzLightGrey open:bg-RyzWhite open:shadow-md open:border-RyzAqua smooth-transition cursor-pointer">
+<summary class="flex justify-between items-center font-medium text-RyzCharcoal list-none">
+<span>Is there a free trial?</span>
+<span class="transition group-open:rotate-180">
+<svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+</span>
+</summary>
+<p class="text-RyzGrey mt-3 text-sm leading-relaxed">
+            We offer a 14-day free trial on our Growth and Professional plans so you can experience the power of our AI optimization before committing.
+          </p>
+</details>
+</div>
+</div>
+</section>
+<footer class="bg-RyzLightGrey text-RyzCharcoal pt-16 pb-8">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+<div class="col-span-1 md:col-span-1">
+<div class="flex items-center gap-2 mb-4">
+<div class="w-8 h-8 rounded bg-RyzBlue flex items-center justify-center text-white font-bold text-lg">
+              R
+            </div>
+<span class="font-bold text-xl tracking-tight text-RyzCharcoal">Ryze.ai</span>
+</div>
+<p class="text-RyzGrey text-sm mb-6">
+            Empowering businesses with AI-driven advertising solutions for scalable growth.
+          </p>
+<div class="flex space-x-4">
+<a class="text-slate-400 hover:text-RyzBlue" href="#"><svg class="text-RyzGrey hover:text-RyzBlue" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2zm.007 3.993c-2.71 0-4.883 2.173-4.883 4.883 0 2.71 2.173 4.883 4.883 4.883 2.71 0 4.883-2.173 4.883-4.883 0-2.71-2.173-4.883-4.883-4.883zm0 7.92c-1.688 0-3.047-1.36-3.047-3.047 0-1.688 1.36-3.047 3.047-3.047 1.688 0 3.047 1.36 3.047 3.047 0 1.687-1.36 3.047-3.047 3.047zm4.727-8.163c-.563 0-1.02.457-1.02 1.02s.457 1.02 1.02 1.02 1.02-.457 1.02-1.02c.001-.563-.456-1.02-1.02-1.02zM12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 19.52c-4.148 0-7.52-3.372-7.52-7.52s3.372-7.52 7.52-7.52 7.52 3.372 7.52 7.52-3.372 7.52-7.52 7.52z"></path></svg></a>
+<a class="text-slate-400 hover:text-RyzBlue" href="#"><svg class="text-RyzGrey hover:text-RyzBlue" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616v.064c0 2.298 1.634 4.214 3.793 4.653-.713.194-1.465.223-2.203.084.636 1.933 2.488 3.34 4.682 3.379-1.794 1.407-4.061 2.188-6.517 2.188-.423 0-.84-.023-1.249-.074 2.323 1.493 5.078 2.355 8.046 2.355 9.648 0 14.92-7.99 14.627-14.285.995-.715 1.854-1.612 2.543-2.63z"></path></svg></a>
+<a class="text-slate-400 hover:text-RyzBlue" href="#"><svg class="text-RyzGrey hover:text-RyzBlue" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg></a>
+</div>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-4 text-RyzCharcoal">Product</h4>
+<ul class="space-y-2 text-RyzGrey text-sm">
+<li><a class="hover:text-RyzBlue" href="#">Features</a></li>
+<li><a class="hover:text-RyzBlue" href="#">Pricing</a></li>
+<li><a class="hover:text-RyzBlue" href="#">Integrations</a></li>
+<li><a class="hover:text-RyzBlue" href="#">Enterprise</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-4 text-RyzCharcoal">Resources</h4>
+<ul class="space-y-2 text-RyzGrey text-sm">
+<li><a class="hover:text-RyzBlue" href="#">Blog</a></li>
+<li><a class="hover:text-RyzBlue" href="#">Case Studies</a></li>
+<li><a class="hover:text-RyzBlue" href="#">Documentation</a></li>
+<li><a class="hover:text-RyzBlue" href="#">Help Center</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-4 text-RyzCharcoal">Company</h4>
+<ul class="space-y-2 text-RyzGrey text-sm">
+<li><a class="hover:text-RyzBlue" href="#">About Us</a></li>
+<li><a class="hover:text-RyzBlue" href="#">Careers</a></li>
+<li><a class="hover:text-RyzBlue" href="#">Legal</a></li>
+<li><a class="hover:text-RyzBlue" href="#">Contact</a></li>
+</ul>
+</div>
+</div>
+<div class="border-t border-slate-200 pt-8 text-center md:text-left">
+<p class="text-RyzGrey text-sm">© 2024 Ryze.ai. All rights reserved.</p>
+</div>
+</div>
+</footer>
+
+</body></html>

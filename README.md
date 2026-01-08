@@ -88,3 +88,15 @@ The layout scales smoothly for smaller devices without hiding essential content.
 ## Final Notes
 
 This redesign emphasizes clarity, usability, and practical SaaS design principles rather than visual gimmicks. Every design decision was made to improve understanding, streamline navigation, and encourage conversions.
+
+## Homepage
+![Homepage Screenshot](images/index.png)
+
+## Features Page
+![Features Page Screenshot](images/features.png)
+
+## Pricing Page
+![Pricing Page Screenshot](images/pricing.png)
+
+## Use Cases Page
+![Use Cases Page Screenshot](images/usecase.png)

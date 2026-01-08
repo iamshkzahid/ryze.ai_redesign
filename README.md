@@ -3,6 +3,11 @@
 This project is a complete redesign of the Ryze.ai website created as part of an internship assignment. The primary aim of the redesign was to enhance visual clarity, improve user experience, and strengthen overall communication, all while maintaining a modern, clean, and professional look.
 
 
+## Live Demo: https://ryze-ai-redesign-zahid.netlify.app/
+
+## Repository: https://github.com/iamshkzahid/ryze.ai_redesign
+
+
 ## Objective
 
 The main goal was to ensure visitors can immediately understand what Ryze.ai does, who it’s built for, and the value it provides. The redesigned website emphasizes clear messaging, intuitive navigation, and strong calls to action such as Get Started and Request a Demo to guide users effectively.
@@ -83,7 +88,3 @@ The layout scales smoothly for smaller devices without hiding essential content.
 ## Final Notes
 
 This redesign emphasizes clarity, usability, and practical SaaS design principles rather than visual gimmicks. Every design decision was made to improve understanding, streamline navigation, and encourage conversions.
-
-Live Demo: https://github.com/iamshkzahid/ryze.ai_redesign
-
-Repository: (add your GitHub link here)
